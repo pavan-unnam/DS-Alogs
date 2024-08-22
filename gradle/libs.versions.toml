@@ -1,0 +1,28 @@
+[versions]
+junitVersion = "5.10.2"
+mockitoVersion = "5.5.0"
+powerMockVersion = "1.6.4"
+loggerVersion = "2.20.0"
+jacksonVersion = "2.15.2"
+lombokVersion= "1.18.30"
+hamcrestVersion="2.2"
+[libraries]
+junit-bom = { module = "org.junit:junit-bom", version.ref = "junitVersion"}
+junit-engine = { module = "org.junit.jupiter:junit-jupiter-engine", version.ref = "junitVersion"}
+junit-api = { module = "org.junit.jupiter:junit-jupiter-api", version.ref = "junitVersion"}
+junit-vintage = { module = "org.junit.vintage:junit-vintage-engine", version.ref = "junitVersion"}
+junit-params = { module = "org.junit.jupiter:junit-jupiter-params", version.ref = "junitVersion"}
+mockito-core = { module = "org.mockito:mockito-core", version.ref = "mockitoVersion"}
+mockito-jupiter = { module = "org.mockito:mockito-junit-jupiter", version.ref = "mockitoVersion"}
+powerMock-core = { module = "org.powermock:powermock-api-mockito", version.ref = "powerMockVersion"}
+powerMock-module = { module = "org.powermock:powermock-module-junit4", version.ref = "powerMockVersion"}
+log4j2-slf4j2 = { module = "org.apache.logging.log4j:log4j-slf4j2-impl", version.ref = "loggerVersion"}
+log4j2-core = { module = "org.apache.logging.log4j:log4j-core", version.ref = "loggerVersion"}
+log4j2-api = { module = "org.apache.logging.log4j:log4j-api", version.ref = "loggerVersion"}
+jackson-databind = { module = "com.fasterxml.jackson.core:jackson-databind", version.ref = "jacksonVersion"}
+jackson-dataformat-yaml = { module = "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml", version.ref = "jacksonVersion"}
+lombok={ module = "org.projectlombok:lombok", version.ref = "lombokVersion"}
+hamcrest={module = "org.hamcrest:hamcrest", version.ref = "hamcrestVersion"}
+[bundles]
+
+[plugins]

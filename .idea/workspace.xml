@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="232b6aa4-f9ec-4133-b5dc-7e5211955247" name="Changes" comment="all files added">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algos/Algorithoms_document.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algos/src/main/java/org/algos/builder/AlgorithmBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algos/src/main/java/org/algos/builder/SearchAlgorithmBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algos/src/main/java/org/algos/builder/SortAlgorithmBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algos/src/main/java/org/algos/constants/AlgoConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algos/src/main/java/org/algos/enums/DataStructureEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algos/src/main/java/org/algos/enums/SearchAlgoEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algos/src/main/java/org/algos/enums/SortAlgoEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algos/src/main/java/org/algos/exception/AlgosException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algos/src/main/java/org/algos/factory/AlgoFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algos/src/main/java/org/algos/generator/AlgoGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algos/src/main/java/org/algos/generator/SearchAlgoGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algos/src/main/java/org/algos/generator/SearchAlgoManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algos/src/main/java/org/algos/generator/SortAlgoGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algos/src/main/java/org/algos/generator/SortAlgoManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algos/src/main/java/org/algos/model/DataStructure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algos/src/main/java/org/algos/search/Linear/LinearSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algos/src/main/java/org/algos/search/Linear/RecursiveLinearSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algos/src/main/java/org/algos/sort/select/RecursiveSelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algos/src/main/java/org/algos/sort/select/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algos/src/main/resources/log4j2.ym" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algos/src/test/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algos/src/test/java/org/algos/search/linear/LinearSearchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algos/src/test/java/org/algos/search/linear/RecursiveLinearSearchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algos/src/test/java/org/algos/search/params/SearchAlgoParamsProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algos/src/test/java/org/algos/sort/params/SortAlgoParamsProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algos/src/test/java/org/algos/sort/select/RecursiveSelectionSortTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algos/src/test/java/org/algos/sort/select/SelectionSortTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/libs.versions.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/alogs/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/../Development/Java8Practice">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/../Development/Java8Practice">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLabMergeRequestsSettings">{}</component>
+  <component name="GithubPullRequestsUISettings">{}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/algos/src/main/java/org/algos/sort/select/RecursiveSelectionSort.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2Ujcg8YEO5UwPVILCG9UTgDVeju" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.DS-Alogs:algos [:algos:AlgoStarter.main()].executor": "Debug",
+    "Gradle.DS-Alogs:algos [:algos:Main.main()].executor": "Run",
+    "Gradle.Java8Practice [assembleP].executor": "Run",
+    "Gradle.Java8Practice [assemble].executor": "Run",
+    "Gradle.LinearSearchTest.testIntArraySearchElement.executor": "Debug",
+    "Gradle.LinearSearchTest.testInteger2DArraySearchElement.executor": "Run",
+    "Gradle.LinearSearchTest.testInteger3DArraySearchElement.executor": "Run",
+    "Gradle.LinearSearchTest.testInteger3DArraySearchElementWithParams.executor": "Run",
+    "Gradle.LinearSearchTest.testIntegerArraySearchElement.executor": "Run",
+    "Gradle.LinearSearchTest.testIntegerLinkedListSearchElement.executor": "Run",
+    "Gradle.LinearSearchTest.testIntegerLinkedListSearchElementWithParams.executor": "Run",
+    "Gradle.LinearSearchTest.testIntegerListSearchElement.executor": "Run",
+    "Gradle.LinearSearchTest.testIntegerListSearchElementParams.executor": "Run",
+    "Gradle.LinearSearchTest.testSearchInteger2DArrayWithParameters.executor": "Run",
+    "Gradle.LinearSearchTest.testSearchString2DArrayWithParameters.executor": "Run",
+    "Gradle.LinearSearchTest.testSearchString3DArrayWithParameters.executor": "Run",
+    "Gradle.LinearSearchTest.testSearchStringArrayWithParameters.executor": "Run",
+    "Gradle.LinearSearchTest.testSortIntegerArrayWithParameters.executor": "Run",
+    "Gradle.LinearSearchTest.testString2DArraySearchElement.executor": "Run",
+    "Gradle.LinearSearchTest.testString3DArraySearchElement.executor": "Run",
+    "Gradle.LinearSearchTest.testStringArraySearchElement.executor": "Run",
+    "Gradle.LinearSearchTest.testStringLinkedListSearchElement.executor": "Run",
+    "Gradle.LinearSearchTest.testStringLinkedListSearchElementWithParams.executor": "Run",
+    "Gradle.LinearSearchTest.testStringListSearchElement.executor": "Run",
+    "Gradle.LinearSearchTest.testStringListSearchElementWithParams.executor": "Run",
+    "Gradle.LinearSearchTest.testStringMapSearchElement.executor": "Run",
+    "Gradle.LinearSearchTest.testStringMapSearchElementWithParams.executor": "Run",
+    "Gradle.RecursiveLinearSearchTest.testInteger2DArraySearchElement.executor": "Debug",
+    "Gradle.RecursiveLinearSearchTest.testInteger3DArraySearchElement.executor": "Debug",
+    "Gradle.RecursiveLinearSearchTest.testInteger3DArraySearchElementWithParams.executor": "Run",
+    "Gradle.RecursiveLinearSearchTest.testIntegerArraySearchElement.executor": "Debug",
+    "Gradle.RecursiveLinearSearchTest.testSearchInteger2DArrayWithParameters.executor": "Run",
+    "Gradle.RecursiveLinearSearchTest.testSearchIntegerArrayWithParameters.executor": "Run",
+    "Gradle.RecursiveLinearSearchTest.testSearchString2DArrayWithParameters.executor": "Run",
+    "Gradle.RecursiveLinearSearchTest.testSearchString3DArrayWithParameters.executor": "Run",
+    "Gradle.RecursiveLinearSearchTest.testSearchStringArrayWithParameters.executor": "Run",
+    "Gradle.RecursiveSelectionSortTest.testColumnSortInteger2DArrayWithParameters.executor": "Debug",
+    "Gradle.RecursiveSelectionSortTest.testSortInteger2DArrayWithParameters.executor": "Run",
+    "Gradle.RecursiveSelectionSortTest.testSortInteger3DArrayWithParameters.executor": "Run",
+    "Gradle.RecursiveSelectionSortTest.testSortIntegerArray.executor": "Debug",
+    "Gradle.RecursiveSelectionSortTest.testSortIntegerArrayWithParameters.executor": "Run",
+    "Gradle.RecursiveSelectionSortTest.testSortStringArray2DWithParameters.executor": "Run",
+    "Gradle.RecursiveSelectionSortTest.testSortStringArray3DWithParameters.executor": "Run",
+    "Gradle.RecursiveSelectionSortTest.testSortStringArrayWithParameters.executor": "Debug",
+    "Gradle.SelectionSortTest.testColumnSortInteger2DArrayWithParameters.executor": "Debug",
+    "Gradle.SelectionSortTest.testColumnSortInteger3DArrayWithParameters.executor": "Run",
+    "Gradle.SelectionSortTest.testColumnSortStringArray2DWithParameters.executor": "Run",
+    "Gradle.SelectionSortTest.testColumnSortStringArray3DWithParameters.executor": "Run",
+    "Gradle.SelectionSortTest.testSortInteger2DArrayWithParameters.executor": "Debug",
+    "Gradle.SelectionSortTest.testSortInteger3DArrayWithParameters.executor": "Debug",
+    "Gradle.SelectionSortTest.testSortIntegerArray.executor": "Debug",
+    "Gradle.SelectionSortTest.testSortIntegerArrayWithParameters.executor": "Run",
+    "Gradle.SelectionSortTest.testSortIntegerListParameters.executor": "Run",
+    "Gradle.SelectionSortTest.testSortStringArray2DWithParameters.executor": "Debug",
+    "Gradle.SelectionSortTest.testSortStringArray3DWithParameters.executor": "Debug",
+    "Gradle.SelectionSortTest.testSortStringArrayWithParameters.executor": "Debug",
+    "Gradle.SelectionSortTest.testSortStringListParameters.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "android.gradle.sync.needed": "true",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "18",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/UNNAM/Documents/GitHub/DS-Alogs/algos/src/main/java/org/algos/enums",
+    "onboarding.tips.debug.path": "/Users/UNNAM/Documents/GitHub/DS-Alogs/design-patterns/src/main/java/org/desgnpatterns/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/algos/src/main/java/org/algos/enums" />
+    </key>
+    <key name="CreateBuilderDialog.RecentsKey">
+      <recent name="org.algos.model" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="gradle assembleP" />
+      <command value="gradle assemble" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Gradle.RecursiveSelectionSortTest.testColumnSortInteger2DArrayWithParameters">
+    <configuration name="RecursiveLinearSearchTest.testSearchString2DArrayWithParameters" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":algos:test" />
+            <option value="--tests" />
+            <option value="&quot;org.algos.search.linear.RecursiveLinearSearchTest.testSearchString2DArrayWithParameters&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="RecursiveLinearSearchTest.testSearchString3DArrayWithParameters" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":algos:test" />
+            <option value="--tests" />
+            <option value="&quot;org.algos.search.linear.RecursiveLinearSearchTest.testSearchString3DArrayWithParameters&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="RecursiveSelectionSortTest.testColumnSortInteger2DArrayWithParameters" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":algos:test" />
+            <option value="--tests" />
+            <option value="&quot;org.algos.sort.select.RecursiveSelectionSortTest.testColumnSortInteger2DArrayWithParameters&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="RecursiveSelectionSortTest.testSortIntegerArray" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":algos:test" />
+            <option value="--tests" />
+            <option value="&quot;org.algos.sort.select.RecursiveSelectionSortTest.testSortIntegerArray&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="SelectionSortTest.testColumnSortInteger2DArrayWithParameters" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":algos:test" />
+            <option value="--tests" />
+            <option value="&quot;org.algos.sort.select.SelectionSortTest.testColumnSortInteger2DArrayWithParameters&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.RecursiveSelectionSortTest.testColumnSortInteger2DArrayWithParameters" />
+        <item itemvalue="Gradle.RecursiveSelectionSortTest.testSortIntegerArray" />
+        <item itemvalue="Gradle.SelectionSortTest.testColumnSortInteger2DArrayWithParameters" />
+        <item itemvalue="Gradle.RecursiveLinearSearchTest.testSearchString3DArrayWithParameters" />
+        <item itemvalue="Gradle.RecursiveLinearSearchTest.testSearchString2DArrayWithParameters" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="232b6aa4-f9ec-4133-b5dc-7e5211955247" name="Changes" comment="" />
+      <created>1693285759317</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1693285759317</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="all files added" />
+    <option name="LAST_COMMIT_MESSAGE" value="all files added" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/alogs/Main.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ds/src/main/java/org/ds/Main.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java-18-features/src/main/java/org/ds/Main.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/execution-framework/src/main/java/org/executions/Main.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/problem-solving/src/main/java/org/problems/Main.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/design-patterns/src/main/java/org/desgnpatterns/Main.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../Development/Java8Practice/src/main/java/Java8Practice/design/patterns/creational/builder/BuilderPatternTest.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algos/src/main/java/org/algos/AlgoStarter.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algos/src/main/java/org/algos/AlgoStarter.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algos/src/main/java/org/algos/generator/SearchAlgoManager.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algos/src/main/java/org/algos/search/Linear/LinearSearch.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algos/src/main/java/org/algos/generator/SearchAlgoManager.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algos/src/main/java/org/algos/generator/SearchAlgoManager.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algos/src/main/java/org/algos/generator/SearchAlgoManager.java</url>
+          <line>87</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algos/src/main/java/org/algos/generator/SearchAlgoManager.java</url>
+          <line>106</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algos/src/main/java/org/algos/generator/SearchAlgoManager.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algos/src/main/java/org/algos/sort/select/SelectionSort.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algos/src/test/java/org/algos/sort/select/SelectionSortTest.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algos/src/main/java/org/algos/sort/select/SelectionSort.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algos/src/test/java/org/algos/sort/select/SelectionSortTest.java</url>
+          <line>112</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algos/src/main/java/org/algos/sort/select/SelectionSort.java</url>
+          <line>107</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algos/src/main/java/org/algos/sort/select/SelectionSort.java</url>
+          <line>130</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algos/src/main/java/org/algos/sort/select/RecursiveSelectionSort.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algos/src/main/java/org/algos/sort/select/RecursiveSelectionSort.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algos/src/main/java/org/algos/sort/select/RecursiveSelectionSort.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algos/src/main/java/org/algos/sort/select/RecursiveSelectionSort.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algos/src/main/java/org/algos/sort/select/SelectionSort.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algos/src/main/java/org/algos/sort/select/RecursiveSelectionSort.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algos/src/main/java/org/algos/sort/select/RecursiveSelectionSort.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algos/src/main/java/org/algos/sort/select/SelectionSort.java</url>
+          <line>231</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algos/src/main/java/org/algos/sort/select/RecursiveSelectionSort.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algos/src/main/java/org/algos/sort/select/RecursiveSelectionSort.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algos/src/main/java/org/algos/sort/select/RecursiveSelectionSort.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algos/src/main/java/org/algos/generator/SortAlgoManager.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algos/src/main/java/org/algos/sort/select/SelectionSort.java</url>
+          <line>278</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algos/src/test/java/org/algos/search/linear/LinearSearchTest.java</url>
+          <line>385</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algos/src/test/java/org/algos/search/linear/LinearSearchTest.java</url>
+          <line>389</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algos/src/test/java/org/algos/sort/select/SelectionSortTest.java</url>
+          <line>222</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algos/src/main/java/org/algos/sort/select/SelectionSort.java</url>
+          <line>205</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algos/src/main/java/org/algos/search/Linear/LinearSearch.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algos/src/main/java/org/algos/search/Linear/RecursiveLinearSearch.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algos/src/main/java/org/algos/search/Linear/RecursiveLinearSearch.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algos/src/main/java/org/algos/sort/select/RecursiveSelectionSort.java</url>
+          <line>84</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algos/src/main/java/org/algos/sort/select/RecursiveSelectionSort.java</url>
+          <line>101</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algos/src/main/java/org/algos/sort/select/RecursiveSelectionSort.java</url>
+          <line>105</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
