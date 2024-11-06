@@ -5,47 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="232b6aa4-f9ec-4133-b5dc-7e5211955247" name="Changes" comment="all files added">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algos/Algorithoms_document.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algos/src/main/java/org/algos/builder/AlgorithmBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algos/src/main/java/org/algos/builder/SearchAlgorithmBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algos/src/main/java/org/algos/builder/SortAlgorithmBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algos/src/main/java/org/algos/constants/AlgoConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algos/src/main/java/org/algos/enums/DataStructureEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algos/src/main/java/org/algos/enums/SearchAlgoEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algos/src/main/java/org/algos/enums/SortAlgoEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algos/src/main/java/org/algos/exception/AlgosException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algos/src/main/java/org/algos/factory/AlgoFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algos/src/main/java/org/algos/generator/AlgoGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algos/src/main/java/org/algos/generator/SearchAlgoGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algos/src/main/java/org/algos/generator/SearchAlgoManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algos/src/main/java/org/algos/generator/SortAlgoGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algos/src/main/java/org/algos/generator/SortAlgoManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algos/src/main/java/org/algos/model/DataStructure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algos/src/main/java/org/algos/search/Linear/LinearSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algos/src/main/java/org/algos/search/Linear/RecursiveLinearSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algos/src/main/java/org/algos/sort/select/RecursiveSelectionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algos/src/main/java/org/algos/sort/select/SelectionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algos/src/main/resources/log4j2.ym" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algos/src/test/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algos/src/test/java/org/algos/search/linear/LinearSearchTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algos/src/test/java/org/algos/search/linear/RecursiveLinearSearchTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algos/src/test/java/org/algos/search/params/SearchAlgoParamsProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algos/src/test/java/org/algos/sort/params/SortAlgoParamsProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algos/src/test/java/org/algos/sort/select/RecursiveSelectionSortTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algos/src/test/java/org/algos/sort/select/SelectionSortTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/libs.versions.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/alogs/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algos/src/main/java/org/algos/sort/select/RecursiveSelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/algos/src/main/java/org/algos/sort/select/RecursiveSelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algos/src/main/java/org/algos/sort/select/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/algos/src/main/java/org/algos/sort/select/SelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algos/src/test/java/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +22,9 @@
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/../Development/Java8Practice">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/../Java8Practice">
       <ProjectState />
     </projectState>
   </component>
@@ -90,8 +58,19 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;pavan-unnam&quot;
+  }
+}</component>
   <component name="GitLabMergeRequestsSettings">{}</component>
-  <component name="GithubPullRequestsUISettings">{}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/pavan-unnam/DS-Alogs.git&quot;,
+    &quot;accountId&quot;: &quot;2c75460c-f638-4df6-8391-9f6fbc3c9eea&quot;
+  }
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/algos/src/main/java/org/algos/sort/select/RecursiveSelectionSort.java" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -111,79 +90,80 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.DS-Alogs:algos [:algos:AlgoStarter.main()].executor": "Debug",
-    "Gradle.DS-Alogs:algos [:algos:Main.main()].executor": "Run",
-    "Gradle.Java8Practice [assembleP].executor": "Run",
-    "Gradle.Java8Practice [assemble].executor": "Run",
-    "Gradle.LinearSearchTest.testIntArraySearchElement.executor": "Debug",
-    "Gradle.LinearSearchTest.testInteger2DArraySearchElement.executor": "Run",
-    "Gradle.LinearSearchTest.testInteger3DArraySearchElement.executor": "Run",
-    "Gradle.LinearSearchTest.testInteger3DArraySearchElementWithParams.executor": "Run",
-    "Gradle.LinearSearchTest.testIntegerArraySearchElement.executor": "Run",
-    "Gradle.LinearSearchTest.testIntegerLinkedListSearchElement.executor": "Run",
-    "Gradle.LinearSearchTest.testIntegerLinkedListSearchElementWithParams.executor": "Run",
-    "Gradle.LinearSearchTest.testIntegerListSearchElement.executor": "Run",
-    "Gradle.LinearSearchTest.testIntegerListSearchElementParams.executor": "Run",
-    "Gradle.LinearSearchTest.testSearchInteger2DArrayWithParameters.executor": "Run",
-    "Gradle.LinearSearchTest.testSearchString2DArrayWithParameters.executor": "Run",
-    "Gradle.LinearSearchTest.testSearchString3DArrayWithParameters.executor": "Run",
-    "Gradle.LinearSearchTest.testSearchStringArrayWithParameters.executor": "Run",
-    "Gradle.LinearSearchTest.testSortIntegerArrayWithParameters.executor": "Run",
-    "Gradle.LinearSearchTest.testString2DArraySearchElement.executor": "Run",
-    "Gradle.LinearSearchTest.testString3DArraySearchElement.executor": "Run",
-    "Gradle.LinearSearchTest.testStringArraySearchElement.executor": "Run",
-    "Gradle.LinearSearchTest.testStringLinkedListSearchElement.executor": "Run",
-    "Gradle.LinearSearchTest.testStringLinkedListSearchElementWithParams.executor": "Run",
-    "Gradle.LinearSearchTest.testStringListSearchElement.executor": "Run",
-    "Gradle.LinearSearchTest.testStringListSearchElementWithParams.executor": "Run",
-    "Gradle.LinearSearchTest.testStringMapSearchElement.executor": "Run",
-    "Gradle.LinearSearchTest.testStringMapSearchElementWithParams.executor": "Run",
-    "Gradle.RecursiveLinearSearchTest.testInteger2DArraySearchElement.executor": "Debug",
-    "Gradle.RecursiveLinearSearchTest.testInteger3DArraySearchElement.executor": "Debug",
-    "Gradle.RecursiveLinearSearchTest.testInteger3DArraySearchElementWithParams.executor": "Run",
-    "Gradle.RecursiveLinearSearchTest.testIntegerArraySearchElement.executor": "Debug",
-    "Gradle.RecursiveLinearSearchTest.testSearchInteger2DArrayWithParameters.executor": "Run",
-    "Gradle.RecursiveLinearSearchTest.testSearchIntegerArrayWithParameters.executor": "Run",
-    "Gradle.RecursiveLinearSearchTest.testSearchString2DArrayWithParameters.executor": "Run",
-    "Gradle.RecursiveLinearSearchTest.testSearchString3DArrayWithParameters.executor": "Run",
-    "Gradle.RecursiveLinearSearchTest.testSearchStringArrayWithParameters.executor": "Run",
-    "Gradle.RecursiveSelectionSortTest.testColumnSortInteger2DArrayWithParameters.executor": "Debug",
-    "Gradle.RecursiveSelectionSortTest.testSortInteger2DArrayWithParameters.executor": "Run",
-    "Gradle.RecursiveSelectionSortTest.testSortInteger3DArrayWithParameters.executor": "Run",
-    "Gradle.RecursiveSelectionSortTest.testSortIntegerArray.executor": "Debug",
-    "Gradle.RecursiveSelectionSortTest.testSortIntegerArrayWithParameters.executor": "Run",
-    "Gradle.RecursiveSelectionSortTest.testSortStringArray2DWithParameters.executor": "Run",
-    "Gradle.RecursiveSelectionSortTest.testSortStringArray3DWithParameters.executor": "Run",
-    "Gradle.RecursiveSelectionSortTest.testSortStringArrayWithParameters.executor": "Debug",
-    "Gradle.SelectionSortTest.testColumnSortInteger2DArrayWithParameters.executor": "Debug",
-    "Gradle.SelectionSortTest.testColumnSortInteger3DArrayWithParameters.executor": "Run",
-    "Gradle.SelectionSortTest.testColumnSortStringArray2DWithParameters.executor": "Run",
-    "Gradle.SelectionSortTest.testColumnSortStringArray3DWithParameters.executor": "Run",
-    "Gradle.SelectionSortTest.testSortInteger2DArrayWithParameters.executor": "Debug",
-    "Gradle.SelectionSortTest.testSortInteger3DArrayWithParameters.executor": "Debug",
-    "Gradle.SelectionSortTest.testSortIntegerArray.executor": "Debug",
-    "Gradle.SelectionSortTest.testSortIntegerArrayWithParameters.executor": "Run",
-    "Gradle.SelectionSortTest.testSortIntegerListParameters.executor": "Run",
-    "Gradle.SelectionSortTest.testSortStringArray2DWithParameters.executor": "Debug",
-    "Gradle.SelectionSortTest.testSortStringArray3DWithParameters.executor": "Debug",
-    "Gradle.SelectionSortTest.testSortStringArrayWithParameters.executor": "Debug",
-    "Gradle.SelectionSortTest.testSortStringListParameters.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "android.gradle.sync.needed": "true",
-    "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "18",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/UNNAM/Documents/GitHub/DS-Alogs/algos/src/main/java/org/algos/enums",
-    "onboarding.tips.debug.path": "/Users/UNNAM/Documents/GitHub/DS-Alogs/design-patterns/src/main/java/org/desgnpatterns/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.DS-Alogs:algos [:algos:AlgoStarter.main()].executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.DS-Alogs:algos [:algos:Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Java8Practice [assembleP].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Java8Practice [assemble].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.LinearSearchTest.testIntArraySearchElement.executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.LinearSearchTest.testInteger2DArraySearchElement.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.LinearSearchTest.testInteger3DArraySearchElement.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.LinearSearchTest.testInteger3DArraySearchElementWithParams.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.LinearSearchTest.testIntegerArraySearchElement.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.LinearSearchTest.testIntegerLinkedListSearchElement.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.LinearSearchTest.testIntegerLinkedListSearchElementWithParams.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.LinearSearchTest.testIntegerListSearchElement.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.LinearSearchTest.testIntegerListSearchElementParams.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.LinearSearchTest.testSearchInteger2DArrayWithParameters.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.LinearSearchTest.testSearchString2DArrayWithParameters.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.LinearSearchTest.testSearchString3DArrayWithParameters.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.LinearSearchTest.testSearchStringArrayWithParameters.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.LinearSearchTest.testSortIntegerArrayWithParameters.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.LinearSearchTest.testString2DArraySearchElement.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.LinearSearchTest.testString3DArraySearchElement.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.LinearSearchTest.testStringArraySearchElement.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.LinearSearchTest.testStringLinkedListSearchElement.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.LinearSearchTest.testStringLinkedListSearchElementWithParams.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.LinearSearchTest.testStringListSearchElement.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.LinearSearchTest.testStringListSearchElementWithParams.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.LinearSearchTest.testStringMapSearchElement.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.LinearSearchTest.testStringMapSearchElementWithParams.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RecursiveLinearSearchTest.testInteger2DArraySearchElement.executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.RecursiveLinearSearchTest.testInteger3DArraySearchElement.executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.RecursiveLinearSearchTest.testInteger3DArraySearchElementWithParams.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RecursiveLinearSearchTest.testIntegerArraySearchElement.executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.RecursiveLinearSearchTest.testSearchInteger2DArrayWithParameters.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RecursiveLinearSearchTest.testSearchIntegerArrayWithParameters.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RecursiveLinearSearchTest.testSearchString2DArrayWithParameters.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RecursiveLinearSearchTest.testSearchString3DArrayWithParameters.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RecursiveLinearSearchTest.testSearchStringArrayWithParameters.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RecursiveSelectionSortTest.testColumnSortInteger2DArrayWithParameters.executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.RecursiveSelectionSortTest.testSortInteger2DArrayWithParameters.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RecursiveSelectionSortTest.testSortInteger3DArrayWithParameters.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RecursiveSelectionSortTest.testSortIntegerArray.executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.RecursiveSelectionSortTest.testSortIntegerArrayWithParameters.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RecursiveSelectionSortTest.testSortStringArray2DWithParameters.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RecursiveSelectionSortTest.testSortStringArray3DWithParameters.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RecursiveSelectionSortTest.testSortStringArrayWithParameters.executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.SelectionSortTest.testColumnSortInteger2DArrayWithParameters.executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.SelectionSortTest.testColumnSortInteger3DArrayWithParameters.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SelectionSortTest.testColumnSortStringArray2DWithParameters.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SelectionSortTest.testColumnSortStringArray3DWithParameters.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SelectionSortTest.testSortInteger2DArrayWithParameters.executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.SelectionSortTest.testSortInteger3DArrayWithParameters.executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.SelectionSortTest.testSortIntegerArray.executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.SelectionSortTest.testSortIntegerArrayWithParameters.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SelectionSortTest.testSortIntegerListParameters.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SelectionSortTest.testSortStringArray2DWithParameters.executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.SelectionSortTest.testSortStringArray3DWithParameters.executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.SelectionSortTest.testSortStringArrayWithParameters.executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.SelectionSortTest.testSortStringListParameters.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;android.gradle.sync.needed&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/UNNAM/GitHub/DS-Alogs&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/UNNAM/Documents/GitHub/DS-Alogs/design-patterns/src/main/java/org/desgnpatterns/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.annotationProcessors&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/algos/src/main/java/org/algos/enums" />
@@ -570,18 +550,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/algos/src/main/java/org/algos/sort/select/RecursiveSelectionSort.java</url>
-          <line>84</line>
-          <option name="timeStamp" value="74" />
+          <line>117</line>
+          <option name="timeStamp" value="77" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/algos/src/main/java/org/algos/sort/select/RecursiveSelectionSort.java</url>
-          <line>101</line>
-          <option name="timeStamp" value="75" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/algos/src/main/java/org/algos/sort/select/RecursiveSelectionSort.java</url>
-          <line>105</line>
-          <option name="timeStamp" value="76" />
+          <line>100</line>
+          <option name="timeStamp" value="78" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -81,38 +81,48 @@ public class RecursiveSelectionSort {
         sortingString2DArrayWithRecursion(stringArray[index], stringArray[index].length, 0);
         sortingString3DArrayWithRecursion(stringArray, length, index+1);
     }
-    public static void columnSorting2DIntegerArray(Integer[][] intArray, int row, int column, int noOfRows, int noOfCols) {
-        if(column ==noOfCols) {
-            return;
-        }
-
-        if (row == intArray.length - 1) {
-            columnSorting2DIntegerArray(intArray, 0, column+1, noOfRows, noOfCols);
-            return;
-        }
-
-        int minRow = findMinRow(intArray,row, column, noOfRows);
-        swap(intArray, row, minRow, column);
-
-        columnSorting2DIntegerArray(intArray, row+1, column, noOfRows, noOfCols);
-
+    public static void columnSorting2DIntegerArray(Integer[][] intArray) {
+        sortColumns(intArray, 0);
     }
 
-    public static int findMinRow(Integer[][] array, int row, int col, int numRows) {
-        if (row == numRows - 1) {
-            return row;
+    public static void sortColumns(Integer[][] arr, int col) {
+        // Base condition: If column index exceeds the number of columns, return
+        if (col >= arr[0].length) {
+            return;
         }
-
-        int minRow = row;
-        if (array[row + 1][col] < array[minRow][col]) {
-            minRow = row + 1;
-        }
-        return findMinRow(array, row+1, col, numRows);
+        // Sort the current column
+        columnSort(arr, 0, col);
+        // Recur for the next column
+        sortColumns(arr, col + 1);
     }
 
-    public static void swap(Integer[][] array, int row1, int row2, int col) {
-        int temp = array[row1][col];
-        array[row1][col] = array[row2][col];
-        array[row2][col] = temp;
+    public static void columnSort(Integer[][] arr, int row, int col) {
+        // Base condition: If row index exceeds the last row, return
+        if (row >= arr.length - 1) {
+            return;
+        }
+        // Find the index of the minimum element in the current column starting from 'row'
+        int minIndex = findMinIndexInColumn(arr, row, col, row);
+        // Swap the found minimum element with the element at 'row'
+        if (minIndex != row) {
+            int temp = arr[row][col];
+            arr[row][col] = arr[minIndex][col];
+            arr[minIndex][col] = temp;
+        }
+        // Recur for the next row in the same column
+        columnSort(arr, row + 1, col);
+    }
+
+    public static int findMinIndexInColumn(Integer[][] arr, int startRow, int col, int currentMinIndex) {
+        // Base case: If we've reached the last row, return the currentMinIndex
+        if (startRow >= arr.length) {
+            return currentMinIndex;
+        }
+        // Compare and update the minIndex if the current element is smaller
+        if (arr[startRow][col] < arr[currentMinIndex][col]) {
+            currentMinIndex = startRow;
+        }
+        // Recur for the next row in the column
+        return findMinIndexInColumn(arr, startRow + 1, col, currentMinIndex);
     }
 }

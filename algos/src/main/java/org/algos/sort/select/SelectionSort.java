@@ -231,7 +231,7 @@ public class SelectionSort implements SortAlgorithmBuilder {
         selectionSortDataStructure.setIntTwoDArray(integer2DArray);
         selectionSortDataStructure.setDataStructureName(DataStructureEnum.INTEGER_2D_ARRAY.name());
         if(isRecursive) {
-            RecursiveSelectionSort.columnSorting2DIntegerArray(integer2DArray, 0,0, integer2DArray.length, integer2DArray[0].length);
+            RecursiveSelectionSort.columnSorting2DIntegerArray(integer2DArray);
         } else {
                 for (int i = 0; i < integer2DArray[0].length; i++) {
                     for (int r = 0; r <= integer2DArray.length - 1; r++) {
