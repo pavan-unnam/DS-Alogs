@@ -159,4 +159,52 @@ public class RecursiveSelectionSortTest {
         Assertions.assertEquals(integer2DArray,sortAlgoManager.getDataStructure().getIntTwoDArray());
         MatcherAssert.assertThat(integer, Matchers.arrayContaining(result));
     }
+
+    @ParameterizedTest
+    @MethodSource("org.algos.sort.params.SortAlgoParamsProvider#provideInteger3DArgumentsColumnSorting")
+    public void testColumnSortInteger3DArrayWithParameters( Integer[][][] integer3DArray, Integer[][][] result) {
+        Integer[][][] integer = null;
+        Object integerObject = sortAlgoManager.manageAlgo("integer3DArray", integer3DArray, isRecursive, true);
+        if(integerObject instanceof Integer[][][]) {
+            integer = (Integer[][][])integerObject;
+        }
+        String dsName = sortAlgoManager.getDataStructure().getDataStructureName();
+        String algoName = sortAlgoManager.getAlgoName();
+        Assertions.assertEquals(SortAlgoEnum.SELECTION.name(),algoName);
+        Assertions.assertEquals(DataStructureEnum.INTEGER_3D_ARRAY.name(),dsName);
+        Assertions.assertEquals(integer3DArray,sortAlgoManager.getDataStructure().getIntThreeDArray());
+        MatcherAssert.assertThat(integer, Matchers.arrayContainingInAnyOrder(integer3DArray));
+    }
+
+    @ParameterizedTest
+    @MethodSource("org.algos.sort.params.SortAlgoParamsProvider#provideString2DArgumentsColumnSorting")
+    public void testColumnSortStringArray2DWithParameters( String[][] string2DArray, String[][] result) {
+        String[][] string = null;
+        Object stringObject = sortAlgoManager.manageAlgo("string2DArray", string2DArray, isRecursive, true);
+        if(stringObject instanceof String[][]) {
+            string = (String[][])stringObject;
+        }
+        String dsName = sortAlgoManager.getDataStructure().getDataStructureName();
+        String algoName = sortAlgoManager.getAlgoName();
+        Assertions.assertEquals(SortAlgoEnum.SELECTION.name(),algoName);
+        Assertions.assertEquals(DataStructureEnum.STRING_2D_ARRAY.name(),dsName);
+        Assertions.assertEquals(string2DArray,sortAlgoManager.getDataStructure().getStringTwoDArray());
+        MatcherAssert.assertThat(string, Matchers.arrayContainingInAnyOrder(result));
+    }
+
+    @ParameterizedTest
+    @MethodSource("org.algos.sort.params.SortAlgoParamsProvider#provideString3DArgumentsColumnSorting")
+    public void testColumnSortStringArray3DWithParameters( String[][][] string3DArray, String[][][] result) {
+        String[][][] string = null;
+        Object stringObject = sortAlgoManager.manageAlgo("string3DArray", string3DArray, isRecursive, true);
+        if(stringObject instanceof String[][][]) {
+            string = (String[][][])stringObject;
+        }
+        String dsName = sortAlgoManager.getDataStructure().getDataStructureName();
+        String algoName = sortAlgoManager.getAlgoName();
+        Assertions.assertEquals(SortAlgoEnum.SELECTION.name(),algoName);
+        Assertions.assertEquals(DataStructureEnum.STRING_3D_ARRAY.name(),dsName);
+        Assertions.assertEquals(string3DArray,sortAlgoManager.getDataStructure().getStringThreeDArray());
+        MatcherAssert.assertThat(string, Matchers.arrayContainingInAnyOrder(result));
+    }
 }

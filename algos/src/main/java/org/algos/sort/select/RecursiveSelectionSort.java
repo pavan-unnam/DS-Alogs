@@ -66,6 +66,15 @@ public class RecursiveSelectionSort {
         sortingInteger3DArrayWithRecursion(intArray, length, index+1);
     }
 
+
+    public static void columnSortingInteger3DArrayWithRecursion(Integer[][][] intArray, int length, int index) {
+        if(index==length){
+            return;
+        }
+        columnSorting2DIntegerArray(intArray[index]);
+        columnSortingInteger3DArrayWithRecursion(intArray, length, index+1);
+    }
+
     public static void sortingString2DArrayWithRecursion(String[][] stringArray, int length, int index) {
         if(index==length){
             return;
@@ -81,8 +90,20 @@ public class RecursiveSelectionSort {
         sortingString2DArrayWithRecursion(stringArray[index], stringArray[index].length, 0);
         sortingString3DArrayWithRecursion(stringArray, length, index+1);
     }
+
+    public static void columnSortingString3DArrayWithRecursion(String[][][] stringArray, int length, int index) {
+        if(index==length){
+            return;
+        }
+        columnSorting2DStringArray(stringArray[index]);
+        columnSortingString3DArrayWithRecursion(stringArray, length, index+1);
+    }
     public static void columnSorting2DIntegerArray(Integer[][] intArray) {
         sortColumns(intArray, 0);
+    }
+
+    public static void columnSorting2DStringArray(String[][] stringArray) {
+        sortColumns(stringArray, 0);
     }
 
     public static void sortColumns(Integer[][] arr, int col) {
@@ -94,6 +115,18 @@ public class RecursiveSelectionSort {
         columnSort(arr, 0, col);
         // Recur for the next column
         sortColumns(arr, col + 1);
+    }
+
+
+    public static void sortColumns(String[][] stringArray, int col) {
+        // Base condition: If column index exceeds the number of columns, return
+        if (col >= stringArray[0].length) {
+            return;
+        }
+        // Sort the current column
+        columnSort(stringArray, 0, col);
+        // Recur for the next column
+        sortColumns(stringArray, col + 1);
     }
 
     public static void columnSort(Integer[][] arr, int row, int col) {
@@ -113,6 +146,24 @@ public class RecursiveSelectionSort {
         columnSort(arr, row + 1, col);
     }
 
+    public static void columnSort(String[][] stringArray, int row, int col) {
+        // Base condition: If row index exceeds the last row, return
+        if (row >= stringArray.length - 1) {
+            return;
+        }
+        // Find the index of the minimum element in the current column starting from 'row'
+        int minIndex = findMinIndexInColumn(stringArray, row, col, row);
+        // Swap the found minimum element with the element at 'row'
+        if (minIndex != row) {
+            String temp = stringArray[row][col];
+            stringArray[row][col] = stringArray[minIndex][col];
+            stringArray[minIndex][col] = temp;
+        }
+        // Recur for the next row in the same column
+        columnSort(stringArray, row + 1, col);
+    }
+
+
     public static int findMinIndexInColumn(Integer[][] arr, int startRow, int col, int currentMinIndex) {
         // Base case: If we've reached the last row, return the currentMinIndex
         if (startRow >= arr.length) {
@@ -124,5 +175,18 @@ public class RecursiveSelectionSort {
         }
         // Recur for the next row in the column
         return findMinIndexInColumn(arr, startRow + 1, col, currentMinIndex);
+    }
+
+    public static int findMinIndexInColumn(String[][] stringArray, int startRow, int col, int currentMinIndex) {
+        // Base case: If we've reached the last row, return the currentMinIndex
+        if (startRow >= stringArray.length) {
+            return currentMinIndex;
+        }
+        // Compare and update the minIndex if the current element is smaller
+        if(stringArray[startRow][col].compareTo(stringArray[currentMinIndex][col]) < 0 ) {
+            currentMinIndex = startRow;
+        }
+        // Recur for the next row in the column
+        return findMinIndexInColumn(stringArray, startRow + 1, col, currentMinIndex);
     }
 }
