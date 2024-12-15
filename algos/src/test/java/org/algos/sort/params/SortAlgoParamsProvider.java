@@ -14,11 +14,11 @@ public class SortAlgoParamsProvider {
     private static Stream<Arguments> provideIntegerArguments() {
         Integer [] intArray1 = {1,2,5,4,3};
         Integer [] intArray2 = {10,2,5,22,15,70,55};
-        Integer [] intArray3 = {10,20,30,40,5,70,55};
+        Integer [] intArray3 = {5, 2, 15, 46, 6, 3, 8, 1};
 
         Integer [] result1 = {1,2,3,4,5};
         Integer [] result2 = {2,5,10,15,22,55,70};
-        Integer [] result3 = {5,10,20,30,40,55,70};
+        Integer [] result3 = {1,2,3,5,6,8,46};
         return Stream.of(
                 Arguments.of(intArray1, result1),
                 Arguments.of(intArray2, result2),

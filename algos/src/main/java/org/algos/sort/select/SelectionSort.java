@@ -231,7 +231,7 @@ public class SelectionSort implements SortAlgorithmBuilder {
         selectionSortDataStructure.setIntTwoDArray(integer2DArray);
         selectionSortDataStructure.setDataStructureName(DataStructureEnum.INTEGER_2D_ARRAY.name());
         if(isRecursive) {
-            RecursiveSelectionSort.columnSorting2DIntegerArray(integer2DArray, 0,0, integer2DArray.length, integer2DArray[0].length);
+            RecursiveSelectionSort.columnSorting2DIntegerArray(integer2DArray);
         } else {
                 for (int i = 0; i < integer2DArray[0].length; i++) {
                     for (int r = 0; r <= integer2DArray.length - 1; r++) {
@@ -253,6 +253,7 @@ public class SelectionSort implements SortAlgorithmBuilder {
         selectionSortDataStructure.setStringTwoDArray(string2DArray);
         selectionSortDataStructure.setDataStructureName(DataStructureEnum.STRING_2D_ARRAY.name());
         if(isRecursive) {
+            RecursiveSelectionSort.columnSorting2DStringArray(string2DArray);
         } else {
             for (int i = 0; i < string2DArray[0].length; i++) {
                 for (int r = 0; r <= string2DArray.length - 1; r++) {
@@ -274,6 +275,7 @@ public class SelectionSort implements SortAlgorithmBuilder {
         selectionSortDataStructure.setIntThreeDArray(integer3DArray);
         selectionSortDataStructure.setDataStructureName(DataStructureEnum.INTEGER_3D_ARRAY.name());
         if(isRecursive) {
+            RecursiveSelectionSort.columnSortingInteger3DArrayWithRecursion(integer3DArray, integer3DArray.length, 0);
         } else {
             for (int index = 0; index < integer3DArray.length; index++) {
                 for (int i = 0; i < integer3DArray[index][0].length; i++) {
@@ -297,6 +299,7 @@ public class SelectionSort implements SortAlgorithmBuilder {
         selectionSortDataStructure.setStringThreeDArray(string3DArray);
         selectionSortDataStructure.setDataStructureName(DataStructureEnum.STRING_3D_ARRAY.name());
         if(isRecursive) {
+            RecursiveSelectionSort.columnSortingString3DArrayWithRecursion(string3DArray, string3DArray.length, 0);
         } else {
             for (int index = 0; index < string3DArray.length; index++) {
                 for (int i = 0; i < string3DArray[index][0].length; i++) {
