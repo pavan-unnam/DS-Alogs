@@ -1,14 +1,22 @@
 package org.algos.model;
 
+
 import lombok.Getter;
 import lombok.Setter;
 
-import java.util.*;
+import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Map;
+import java.util.Objects;
+import java.util.Set;
+import java.util.TreeMap;
+import java.util.TreeSet;
+
 
 @Setter
 @Getter
 public final class DataStructure {
-
 
     public String dataStructureName;
 
@@ -124,152 +132,76 @@ public final class DataStructure {
                 '}';
     }
 
-    public String getDataStructureName() {
-        return dataStructureName;
-    }
-
     public void setDataStructureName(String dataStructureName) {
         this.dataStructureName = dataStructureName;
-    }
-
-    public Integer[] getIntArray() {
-        return intArray;
     }
 
     public void setIntArray(Integer[] intArray) {
         this.intArray = intArray;
     }
 
-    public String[] getStringArray() {
-        return stringArray;
-    }
-
     public void setStringArray(String[] stringArray) {
         this.stringArray = stringArray;
-    }
-
-    public Integer[][] getIntTwoDArray() {
-        return intTwoDArray;
     }
 
     public void setIntTwoDArray(Integer[][] intTwoDArray) {
         this.intTwoDArray = intTwoDArray;
     }
 
-    public String[][] getStringTwoDArray() {
-        return stringTwoDArray;
-    }
-
     public void setStringTwoDArray(String[][] stringTwoDArray) {
         this.stringTwoDArray = stringTwoDArray;
-    }
-
-    public Integer[][][] getIntThreeDArray() {
-        return intThreeDArray;
     }
 
     public void setIntThreeDArray(Integer[][][] intThreeDArray) {
         this.intThreeDArray = intThreeDArray;
     }
 
-    public String[][][] getStringThreeDArray() {
-        return stringThreeDArray;
-    }
-
     public void setStringThreeDArray(String[][][] stringThreeDArray) {
         this.stringThreeDArray = stringThreeDArray;
-    }
-
-    public List<Integer> getIntList() {
-        return intList;
     }
 
     public void setIntList(List<Integer> intList) {
         this.intList = intList;
     }
 
-    public List<String> getStringList() {
-        return stringList;
-    }
-
     public void setStringList(List<String> stringList) {
         this.stringList = stringList;
-    }
-
-    public LinkedList<Integer> getIntLinkedList() {
-        return intLinkedList;
     }
 
     public void setIntLinkedList(LinkedList<Integer> intLinkedList) {
         this.intLinkedList = intLinkedList;
     }
 
-    public LinkedList<String> getStringLinkedList() {
-        return stringLinkedList;
-    }
-
     public void setStringLinkedList(LinkedList<String> stringLinkedList) {
         this.stringLinkedList = stringLinkedList;
-    }
-
-    public Set<Integer> getIntSet() {
-        return intSet;
     }
 
     public void setIntSet(Set<Integer> intSet) {
         this.intSet = intSet;
     }
 
-    public Set<String> getStringSet() {
-        return stringSet;
-    }
-
     public void setStringSet(Set<String> stringSet) {
         this.stringSet = stringSet;
-    }
-
-    public TreeSet<Integer> getIntTreeSet() {
-        return intTreeSet;
     }
 
     public void setIntTreeSet(TreeSet<Integer> intTreeSet) {
         this.intTreeSet = intTreeSet;
     }
 
-    public TreeSet<String> getStirngTreeSet() {
-        return stirngTreeSet;
-    }
-
     public void setStirngTreeSet(TreeSet<String> stirngTreeSet) {
         this.stirngTreeSet = stirngTreeSet;
-    }
-
-    public Map<Integer, Integer> getIntMap() {
-        return intMap;
     }
 
     public void setIntMap(Map<Integer, Integer> intMap) {
         this.intMap = intMap;
     }
 
-    public Map<String, String> getStringMap() {
-        return StringMap;
-    }
-
     public void setStringMap(Map<String, String> stringMap) {
         StringMap = stringMap;
     }
 
-    public Map<Integer, String> getIntStringMap() {
-        return intStringMap;
-    }
-
     public void setIntStringMap(Map<Integer, String> intStringMap) {
         this.intStringMap = intStringMap;
-    }
-
-    public TreeMap<Integer, String> getIntStringTreeMap() {
-        return intStringTreeMap;
     }
 
     public void setIntStringTreeMap(TreeMap<Integer, String> intStringTreeMap) {

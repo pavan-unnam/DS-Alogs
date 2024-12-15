@@ -2,7 +2,7 @@ plugins {
     id("java")
 }
 
-group = "org.alogs"
+group = "org.ds-alogs"
 version = "1.0-SNAPSHOT"
 
 repositories {
